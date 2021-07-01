@@ -9,7 +9,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Get some code from a GitHub repository
-                git 'https://github.com/AnisaFathima/DAS_Project.git'
+                git 'https://github.com/vibhutikumaryadav/AppSecDemoScen2.git'
                 // Run Maven on a Unix agent.
                 //sh "mvn -Dmaven.test.failure.ignore=true clean package"
                 // To run Maven on a Windows agent, use
